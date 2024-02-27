@@ -14,5 +14,12 @@ const store = configureStore({
   reducer: userSlice.reducer,
 });
 
+
+export const fetchUser = () =>{
+    return async (dispatch) =>{
+        
+    }
+}
+
 export const userActions = userSlice.actions;
 export default store;
